@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominos app</title>
+    <style>
+      @media(min-width: 992px){
+      header div{
+        display: flex;
+        justify-content: space-between;
+      }
+      header div h1{
+        color: darkblue
+      }
+      header div p{
+        color: blue
+      }
+      button{
+            background-color: red;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+      }
+      header div p{
+        padding-top: 15px;
+      }
+      .innerclass{
+        display: flex;
+        justify-content: space-around;
+      }
+      .innerclass1{
+        background-color: red;
+            background-color: red;
+        padding: 40px;
+        margin: 10px;
+      }
+      .innerclass1 img{
+                width: 300px;
+    height: 300px;
+    margin-left: 10%;
+      }
+      .innerclass1 h3, .innerclass1 p{
+        text-align: center;
+        color: white;
+      }
+      .innerclass1 h3{
+        font-size: 30px;
+      }
+      .innerclass1 button{
+        padding: 10px;
+        background-color: white;
+        color: red;
+        margin-left: 40%;
+      }
+      .exploreinnerclass{
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 1px;
+      }
+      .exploreinnerclass1{
+            border: 1px solid grey;
+    box-shadow: 1px 1px 1px lightblue;
+    padding: 10px;
+    margin: 10px;
+      }
+      .exploreinnerclass h3, .exploreinnerclass1 p, .exploreinnerclass1 div{
+        text-align: center;
+      }
+      .exploreinnerclass h3{
+            font-weight: 700;
+    font-size: 25px;
+      }
+      .exploreinnerclass1 img{
+        margin-left: 33%;
+      }
+      .exploreinnerclass1 div{
+        color: red;
+      }
+      footer{
+        display: flex;
+        background-color: lightgray;
+        margin-top: 30px;
+      }
+      footer .img1{
+        width: 80%;
+        height: 100%;
+      }
+      .foot2 h1{
+        font-size: 40px;
+      }
+      .foot2 p{
+            font-size: 20px;
+    padding-left: 15px;
+      }
+      .foot3{
+        display: flex;
+    justify-content: space-around;
+    margin-left: -3%;
+      }
+      .foot3 img{
+            width: 40%;
+    height: 100%;
+      }
+      header, .bodyclass h1, .middleclass h1{
+        padding-left: 10px;
+      }
+    }
+
+     @media(max-width: 767px){
+      header div{
+        display: block;
+      }
+      header div h1{
+        color: darkblue
+      }
+      header div p{
+        color: blue
+      }
+      button{
+            background-color: red;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+      }
+      header div p{
+        padding-top: 15px;
+      }
+      .innerclass{
+        display: block;
+      }
+      .innerclass1{
+        background-color: red;
+            background-color: red;
+        padding: 40px;
+        margin: 10px;
+      }
+      .innerclass1 img{
+                width: 300px;
+    height: 300px;
+    margin-left: -3%;
+      }
+      .innerclass1 h3, .innerclass1 p{
+        text-align: center;
+        color: white;
+      }
+      .innerclass1 h3{
+        font-size: 30px;
+      }
+      .innerclass1 button{
+        padding: 10px;
+        background-color: white;
+        color: red;
+        margin-left: 40%;
+      }
+      .exploreinnerclass{
+        display: block;
+      }
+      .exploreinnerclass1{
+            border: 1px solid grey;
+    box-shadow: 1px 1px 1px lightblue;
+    padding: 10px;
+    margin: 10px;
+      }
+      .exploreinnerclass h3, .exploreinnerclass1 p, .exploreinnerclass1 div{
+        text-align: center;
+      }
+      .exploreinnerclass h3{
+            font-weight: 700;
+    font-size: 25px;
+      }
+      .exploreinnerclass1 img{
+        margin-left:34%;
+      }
+      .exploreinnerclass1 div{
+        color: red;
+      }
+      footer{
+           display: block;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 30px;
+      }
+      footer .img1{
+        width: 80%;
+        height: 100%;
+      }
+      .foot2 h1{
+        font-size: 40px;
+      }
+      .foot2 p{
+            font-size: 20px;
+    padding-left: 15px;
+      }
+      .foot3{
+        display: flex;
+    justify-content: space-around;
+    margin-left: -3%;
+      }
+      .foot3 img{
+            width: 40%;
+    height: 100%;
+      }
+      header, .bodyclass h1, .middleclass h1{
+        padding-left: 10px;
+      }
+      .bodyclass{
+        width: 100%;
+      }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+       <header>
+          <div>
+            <h1>Domino's Pizza</h1>
+            <p>OUR MENU</p>
+            <p>DOMINO'S STORE</p>
+            <p>GIFT CARD</p>
+            <p>CORPORATE ENQUIRY</p>
+            <p>CONTACT</p>
+            <button>Download App</button>
+          </div>
+       </header>
+       <hr style="box-shadow: 1px 1px gray;">
+       <div class="bodyclass">
+        <h1>Order</h1>
+        <div class="innerclass">
+          <div class="innerclass1">
+            <img src="../HTML/Screenshot 2022-12-22 at 8.37.04 AM_353938.png" alt="11">
+            <h3>VEG PIZZA</h3>
+            <p>A delight for veggie lovers! Choose from our wide range of delicious vegeterian pizzas, its softer and tastier</p>
+            <button>VIEW ALL</button>
+          </div>
+          <div class="innerclass1">
+            <img src="../HTML/Screenshot 2022-12-22 at 8.37.04 AM_353938.png" alt="11">
+            <h3>VEG PIZZA</h3>
+            <p>A delight for veggie lovers! Choose from our wide range of delicious vegeterian pizzas, its softer and tastier</p>
+            <button>VIEW ALL</button>
+          </div>
+          <div class="innerclass1">
+            <img src="../HTML/Screenshot 2022-12-22 at 8.37.04 AM_353938.png" alt="11">
+            <h3>OUR MENU</h3>
+            <p>Indulge into mouth-watering taste of Pizza mania range, perfect answer to all your food cravings</p>
+            <button>VIEW ALL</button>
+          </div>
+        </div>
+        <div class="innerclass">
+          <div class="innerclass1">
+            <img src="../HTML/Screenshot 2022-12-22 at 8.37.04 AM_353938.png" alt="11">
+            <h3>VEG PIZZA</h3>
+            <p>A delight for veggie lovers! Choose from our wide range of delicious vegeterian pizzas, its softer and tastier</p>
+            <button>VIEW ALL</button>
+          </div>
+          <div class="innerclass1">
+            <img src="../HTML/Screenshot 2022-12-22 at 8.37.04 AM_353938.png" alt="11">
+            <h3>VEG PIZZA</h3>
+            <p>A delight for veggie lovers! Choose from our wide range of delicious vegeterian pizzas, its softer and tastier</p>
+            <button>VIEW ALL</button>
+          </div>
+          <div class="innerclass1">
+            <img src="../HTML/Screenshot 2022-12-22 at 8.37.04 AM_353938.png" alt="11">
+            <h3>OUR MENU</h3>
+                        <p>Indulge into mouth-watering taste of Pizza mania range, perfect answer to all your food cravings</p>
+            <button>VIEW ALL</button>
+          </div>
+        </div>
+       </div>
+    </div>
+    <div class="middleclass">
+      <h1>Explore</h1>
+      <div class="exploreinnerclass">
+        <div class="exploreinnerclass1">
+          <img src="../HTML/emoticon.png" alt="11">
+          <h3>OUR MENU</h3>
+          <p>Explore our range of delicious Pizzas, delivered in 30 minutes
+          </p>
+          <hr>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div class="exploreinnerclass1">
+          <img src="../HTML/emoticon.png" alt="11">
+          <h3>OUR MENU</h3>
+          <p>Explore our range of delicious Pizzas, delivered in 30 minutes
+          </p>
+          <hr>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div class="exploreinnerclass1">
+          <img src="../HTML/emoticon.png" alt="11">
+          <h3>OUR MENU</h3>
+          <p>Explore our range of delicious Pizzas, delivered in 30 minutes
+          </p>
+          <hr>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div class="exploreinnerclass1">
+          <img src="../HTML/emoticon.png" alt="11">
+          <h3>OUR MENU</h3>
+          <p>Explore our range of delicious Pizzas, delivered in 30 minutes
+          </p>
+          <hr>
+          <div>DISCOVER PIZZA</div>
+        </div>
+      </div>
+      <div class="exploreinnerclass">
+        <div class="exploreinnerclass1">
+          <img src="../HTML/emoticon.png" alt="11">
+          <h3>OUR MENU</h3>
+          <p>Explore our range of delicious Pizzas, delivered in 30 minutes
+          </p>
+          <hr>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div class="exploreinnerclass1">
+          <img src="../HTML/emoticon.png" alt="11">
+          <h3>OUR MENU</h3>
+          <p>Explore our range of delicious Pizzas, delivered in 30 minutes
+          </p>
+          <hr>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div class="exploreinnerclass1">
+          <img src="../HTML/emoticon.png" alt="11">
+          <h3>OUR MENU</h3>
+          <p>Explore our range of delicious Pizzas, delivered in 30 minutes
+          </p>
+          <hr>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div class="exploreinnerclass1">
+          <img src="../HTML/emoticon.png" alt="11">
+          <h3>OUR MENU</h3>
+          <p>Explore our range of delicious Pizzas, delivered in 30 minutes
+          </p>
+          <hr>
+          <div>DISCOVER PIZZA</div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="foot1">
+          <img class="img1" src="../HTML/mobile.png" alt="11">
+        </div>
+        <div class="foot2">
+          <h1>Unlock Exclusive Offers</h1>
+          <p>For lightning fast ordering experience download the Domino's app</p>
+          <div class="foot3">
+            <img class="img2" src="../HTML/play.png" alt="11">
+            <img class="img3" src="../HTML/appstore.png" alt="11">
+          </div>
+        </div>
+      </footer>
+    </div>
+      
+</body>
+
+</html>
